@@ -16,6 +16,9 @@ public class Pais {
 	
 	@Column (name = "nombre_completo")
 	private String nombre;
+	
+	public Pais() {
+	}
 
 	public Pais(String nombre) {
 		super();

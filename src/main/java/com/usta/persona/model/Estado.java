@@ -20,6 +20,9 @@ public class Estado {
 	@JoinColumn (name="id_pais")
 	private Pais pais;
 	
+	public Estado() {
+	}
+	
 	public Estado(Pais pais, String nombre) {
 		super();
 		this.pais = pais;
