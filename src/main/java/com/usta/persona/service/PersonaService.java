@@ -111,8 +111,7 @@ public class PersonaService implements PersonaRepository{
 
 	@Override
 	public <S extends Persona> S save(S entity) {
-		// TODO Auto-generated method stub
-		return null;
+		return personaRepository.save(entity);
 	}
 
 	@Override

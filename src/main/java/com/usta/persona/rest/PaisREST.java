@@ -12,7 +12,7 @@ import com.usta.persona.model.Pais;
 import com.usta.persona.service.PaisService;
 
 @RestController
-@RequestMapping("/pais/")
+@RequestMapping("/paises/")
 public class PaisREST {
 	@Autowired
 	private PaisService paisService;
