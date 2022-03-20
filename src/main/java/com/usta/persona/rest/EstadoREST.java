@@ -13,7 +13,7 @@ import com.usta.persona.model.Estado;
 import com.usta.persona.service.EstadoService;
 
 @RestController
-@RequestMapping("/estados/")
+@RequestMapping("/estado/")
 public class EstadoREST {
 	@Autowired
 	private EstadoService estadoService;

@@ -16,7 +16,7 @@ import com.usta.persona.model.Persona;
 import com.usta.persona.service.PersonaService;
 
 @RestController
-@RequestMapping("/personas/")
+@RequestMapping("/persona/")
 public class PersonaREST {
 	@Autowired
 	private PersonaService personaService;
